@@ -11,11 +11,11 @@ const categoryRoutes = require("./Routes/category");
 const apiDocsRoutes = require("./Routes/api");
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 
 // Middleware
 app.use(cors({ 
-  origin: ["http://localhost:3001"],
+  origin: ["http://localhost:3001","https://dwinsoftadmin.boonnet.co],
   methods: ['GET', 'POST', 'DELETE', 'PUT'],
   credentials: true,
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization']
