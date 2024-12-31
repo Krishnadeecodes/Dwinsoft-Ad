@@ -15,7 +15,7 @@ const PORT = 5001;
 
 // Middleware
 app.use(cors({ 
-  origin: ["http://localhost:3001","https://dwinsoftadmin.boonnet.co"],
+  origin: ["http://localhost:3000","https://dwinsoftadmin.boonnet.co"],
   methods: ['GET', 'POST', 'DELETE', 'PUT'],
   credentials: true,
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization']
